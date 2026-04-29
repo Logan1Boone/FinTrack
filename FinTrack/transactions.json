@@ -1,0 +1,10 @@
+[
+  {
+    "Id": 1,
+    "Date": "2026-04-29T16:41:27.1562977-04:00",
+    "Description": "Grocery run",
+    "Amount": 85.50,
+    "Category": "Food",
+    "Type": "Expense"
+  }
+]

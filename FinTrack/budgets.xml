@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBudget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Budget>
+    <Id>1</Id>
+    <Category>Food</Category>
+    <Limit>300</Limit>
+    <Spent>0</Spent>
+  </Budget>
+</ArrayOfBudget>
