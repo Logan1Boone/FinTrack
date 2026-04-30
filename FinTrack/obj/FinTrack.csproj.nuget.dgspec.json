@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.3.1, )"

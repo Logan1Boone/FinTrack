@@ -4,7 +4,7 @@
     <Id>1</Id>
     <Category>Food</Category>
     <Limit>300</Limit>
-    <Spent>0</Spent>
+    <Spent>12.75</Spent>
   </Budget>
   <Budget>
     <Id>2</Id>

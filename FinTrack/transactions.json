@@ -6,5 +6,29 @@
     "Amount": 85.50,
     "Category": "Food",
     "Type": "Expense"
+  },
+  {
+    "Id": 2,
+    "Date": "2026-04-30T02:34:22.8529344-04:00",
+    "Description": "Education",
+    "Amount": 500.00,
+    "Category": "Other",
+    "Type": "Income"
+  },
+  {
+    "Id": 3,
+    "Date": "2026-04-30T02:35:11.6119417-04:00",
+    "Description": "McDonalds",
+    "Amount": 12.75,
+    "Category": "Food",
+    "Type": "Expense"
+  },
+  {
+    "Id": 4,
+    "Date": "2026-04-30T02:35:34.2500329-04:00",
+    "Description": "Gas",
+    "Amount": 75.00,
+    "Category": "Other",
+    "Type": "Expense"
   }
 ]
