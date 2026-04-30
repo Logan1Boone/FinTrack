@@ -1,0 +1,23 @@
+<UserControl x:Class="FinTrack.Views.BudgetView"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+<Grid Margin="20">
+<StackPanel>
+
+<TextBlock Text="Budget Management" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Category"/>
+        <TextBox x:Name="txtBudgetCategory" Margin="0,0,0,10"/>
+
+        <TextBlock Text="Budget Limit ($)"/>
+        <TextBox x:Name="txtBudgetAmount" Margin="0,0,0,10"/>
+
+        <Button Content="Save Budget" Width="150" HorizontalAlignment="Left"
+                Click="SaveBudget_Click" Margin="0,0,0,10"/>
+
+        <TextBlock x:Name="txtBudgetStatus" Text="" Foreground="Green" FontSize="14"/>
+
+</StackPanel>
+</Grid>
+</UserControl>

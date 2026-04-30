@@ -1,12 +1,32 @@
 ﻿<Window x:Class="FinTrack.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FinTrack"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        xmlns:views="clr-namespace:FinTrack.Views"
+        Title="FinTrack Finance Manager" Height="650" Width="1100">
 
+    <Grid>
+        <TabControl>
+
+            <!-- DASHBOARD -->
+            <TabItem Header="Dashboard">
+                <views:DashboardView x:Name="Dashboard"/>
+            </TabItem>
+
+            <!-- TRANSACTIONS -->
+            <TabItem Header="Transactions">
+                <views:TransactionsView/>
+            </TabItem>
+
+            <!-- BUDGETS -->
+            <TabItem Header="Budgets">
+                <views:BudgetView/>
+            </TabItem>
+
+            <!-- REPORTS -->
+            <TabItem Header="Reports">
+                <views:ReportsView/>
+            </TabItem>
+
+        </TabControl>
     </Grid>
 </Window>

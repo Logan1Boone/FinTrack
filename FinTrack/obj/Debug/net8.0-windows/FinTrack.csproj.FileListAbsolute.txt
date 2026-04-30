@@ -41,3 +41,12 @@ C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-wind
 C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\FinTrack.pdb
 C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\FinTrack.genruntimeconfig.cache
 C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\ref\FinTrack.dll
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\BudgetView.baml
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\DashboardView.baml
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\TransactionsView.baml
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\BudgetView.g.cs
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\TransactionsView.g.cs
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\ReportsView.baml
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\Views\ReportsView.g.cs
+C:\Users\logim\OneDrive\Documents\GitHub\FinTrack\FinTrack\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

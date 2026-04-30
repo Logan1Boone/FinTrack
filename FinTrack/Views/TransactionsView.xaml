@@ -1,0 +1,47 @@
+<UserControl x:Class="FinTrack.Views.TransactionsView"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+<Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Input Form -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="Add Transaction" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Category"/>
+            <ComboBox x:Name="cmbCategory" Margin="0,0,0,10">
+                <ComboBoxItem Content="Food"/>
+                <ComboBoxItem Content="Rent"/>
+                <ComboBoxItem Content="Transport"/>
+                <ComboBoxItem Content="Utilities"/>
+                <ComboBoxItem Content="Entertainment"/>
+                <ComboBoxItem Content="Other"/>
+            </ComboBox>
+
+            <TextBlock Text="Type"/>
+            <ComboBox x:Name="cmbType" Margin="0,0,0,10">
+                <ComboBoxItem Content="Income"/>
+                <ComboBoxItem Content="Expense"/>
+            </ComboBox>
+
+            <TextBlock Text="Description"/>
+            <TextBox x:Name="txtDescription" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Amount"/>
+            <TextBox x:Name="txtAmount" Margin="0,0,0,10"/>
+
+
+            <Button Content="Add Transaction" Width="150" HorizontalAlignment="Left"
+                    Click="AddTransaction_Click" Margin="0,0,0,5"/>
+            <Button Content="Delete Selected" Width="150" HorizontalAlignment="Left"
+                    Click="DeleteTransaction_Click"/>
+        </StackPanel>
+
+        <!-- Transaction List -->
+        <ListBox x:Name="lstTransactions" Grid.Row="1"/>
+    </Grid>
+</UserControl>

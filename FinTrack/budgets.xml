@@ -6,4 +6,16 @@
     <Limit>300</Limit>
     <Spent>0</Spent>
   </Budget>
+  <Budget>
+    <Id>2</Id>
+    <Category>Clothes</Category>
+    <Limit>50.00</Limit>
+    <Spent>0</Spent>
+  </Budget>
+  <Budget>
+    <Id>3</Id>
+    <Category>Gas</Category>
+    <Limit>300.00</Limit>
+    <Spent>0</Spent>
+  </Budget>
 </ArrayOfBudget>
